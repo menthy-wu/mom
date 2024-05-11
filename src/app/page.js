@@ -56,10 +56,17 @@ export default function Home() {
       <Image alt="hi" src={left} className="absolute left-0 bottom-0 w-1/2" />
       <div className="relative flex h-screen flex-col items-start justify-between w-full">
         <Image alt="hi" src={border} className="w-full" />
-        <div className="flex flex-col text-[#826BE4] ml-24">
+        <div className="hidden md:flex flex-col text-[#826BE4] ml-24">
           <div className="text-9xl">Happy</div>
           <div className="text-[200px] -mt-[100px]">Mother's Day</div>
           <div className="text-6xl -mt-[100px] self-end">
+            You are a mom like no other
+          </div>
+        </div>
+        <div className="flex md:hidden flex-col text-[#826BE4] ml-12">
+          <div className="text-7xl">Happy</div>
+          <div className="text-[100px] -mt-[50px]">Mother's Day</div>
+          <div className="text-3xl -mt-[50px] self-end">
             You are a mom like no other
           </div>
         </div>
